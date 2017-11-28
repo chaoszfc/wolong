@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*新闻*/
+#new{height: 240px;width: 100%;}
+#new .container .new_01{width:450px;height:226px;float: left;padding:14px 28px 0 22px;}
+#new .container .new_02{width:190px;height: 226px;float: left;padding:14px 28px 0 22px;background: #F1F1F1;}
+#new .container .new_03{width:210px;height: 226px;float: left;padding:14px 28px 0 22px;}
+
+#new .new_01 h2{font-size: 18px;font-weight: bold;line-height: 62px;}
+#new .new_01 li{padding-left: 14px;list-style-type:disc;}
+#new a{display:block;text-decoration:none;color:#535353;height: 24px;line-height: 24px;font-size: 12px;}
+#new .new_01 .setspace{float:right;}
+#new .new_01 a:hover{color:red;}
+
+#new .new_02 h2{font-size: 18px;font-weight: bold;line-height: 62px;}
+#new .new_02 h3{font-size: 14px;line-height: 26px;}
+#new .new_02 p{font-size: 10px;line-height: 26px;}
+
+#new .new_03{background:url("../images/new03.jpg") no-repeat right bottom;}
+#new .new_03 h2{font-size: 18px;font-weight: bold;line-height: 62px;}
+#new .new_03 p{font-size: 10px;line-height: 26px;}
+#new .new_03 button{margin-left: 24px;width: 66px;height: 20px;color:white;background:#AEAEAE;border-radius:4px;}
+
+#market {height:306px;width: 100%;padding-left: 20px;}
+#market h1{font-size: 20px;font-weight: bold;line-height: 52px;margin-top: 13px;}
+#market .market_01{margin-right: 40px;height: 107px; width: 210px;}
+#market .market_01 p{font-size: 14px;padding-top: 6px;line-height: 36px;color:#6F6F6F;}
+
+#product{width: 100%;height: 250px;}
+#product .pro_01{height: 250px;width:453px;padding-left: 20px;background: #E5E5E5;}
+#product .pro_02{height: 250px;width:253px;padding-left: 20px;background: #E5E5E5;}
+#product .pro_03{height: 250px;width:234px;padding-left: 20px;background: #E5E5E5;}
+#product ul{padding:14px 72px 0 0;}
+#product a{display:block;text-decoration: none;color:#616161;}
+#product li{background:url("../images/arrow.jpg") no-repeat 0px 5px;padding-left: 15px;}
+#product .pro_01 h1{font-size: 20px;font-weight: bold;line-height:38px;padding-top: 20px;width: 433px;border-bottom: 1px solid #C1C1C1;color:#888888;}
+#product .pro_02 h1{font-size: 20px;font-weight: bold;line-height:38px;padding-top: 20px;width: 152px;border-bottom: 1px solid #C1C1C1;color:#888888;}
+#product .pro_03 h1{font-size: 20px;font-weight: bold;line-height:40px;padding-top: 18px;width: 200px;border-bottom: 1px solid #C1C1C1;color:#888888;}
+#product .pro_03 img{margin-top: 13px;}
+
+#foot{height: 83px;width: 100%;}
+#foot img{height:83px;width: 1000px;}
